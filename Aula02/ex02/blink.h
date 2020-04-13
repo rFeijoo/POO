@@ -13,6 +13,7 @@
     // Área privada, ou seja, restrita ao usuário
     private:
       int pin_;                 // Variável para armazenamento do pino de saída (LED)
+      bool 
   };
 
 #endif /*_BLINK_H*/
