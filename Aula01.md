@@ -39,9 +39,24 @@ O resultado deverá ser algo como:
   <img src="screenshots/ex03.jpg">
 </p>
 
+### 4 - Modularização
 
+Para códigos complexos, a melhor abordagem é estruturá-lo por tipos de periféricos (RTC, WiFi, GSM, etc).
 
+As principais vantagens são:
 
+* Redução no custo de manutenção;
+* Aumento no aproveitamento do código;
+
+#### 4.1 - Arquivos *.c*
+
+Nesta etapa, serão necessários 2 arquivos, o arquivo principal (```ex04.c```) e a biblioteca visada (```library.cpp```).
+
+Após a criação dos arquivos, crie as funções dentro do arquivo ```library.cpp``` e inclua-o no arquivo principal, conforme demonstrado abaixo.
+
+<p align="center">
+  <img src="screenshots/ex04_1.jpg">
+</p>
 
 
 
