@@ -12,6 +12,9 @@ Escreva um programa, na *IDE* do *Arduino*, que pisque o *LED* 13 (interno) em 1
 
 Apesar de simples associar *LEDs* aos *GPIOs* do *Arduino*, podemos facilitar a montagem utilizando o *Serial Console*.
 
+<p align="center">
+  <img src="screenshots/ex06.gif">
+</p>
 
 #### 5.1 - Caracterização de Classes, Atributos, Métodos e Objetos
 
