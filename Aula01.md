@@ -95,18 +95,10 @@ Mas... e caso o código deva ser capaz de cadastrar **ATÉ** 1000 pessoas. Seria
 
 E é aqui que entra a **Programação Orientada a Objetos**.
 
-
-
-
-
-
-
-
-
-## Programação Orientada a Objetos 
+### 5 - Programação Orientada a Objetos 
 
 <p align="center">
-  <img width="360" height="300" src="screenshots/ex01.jpg">
+  <img src="screenshots/POO.jpg">
 </p>
 
 * Redução no custo de manutenção;
