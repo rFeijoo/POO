@@ -1,6 +1,8 @@
-## 1 - Hello World
+## Dia 1
 
-Para iniciarmos, façamos um exemplo clássico que apresente a mensagem "Hello World" na saída. Escreva o código em C, utilizando algum compilador de sua preferência.
+### 1 - *Hello World*
+
+Para iniciarmos, façamos um exemplo clássico que apresente a mensagem "*Hello World*" na saída. Escreva o código em C, utilizando algum compilador de sua preferência.
 
 O resultado deverá ser algo como:
 
@@ -8,7 +10,21 @@ O resultado deverá ser algo como:
   <img src="screenshots/ex01.jpg">
 </p>
 
+### 2 - Funções
 
+Vamos começar a modularizar o código. Para isso, crie um função que receba uma *string* e a imprima na saída conforme o exemplo abaixo.
+
+```
+Hello World.
+```
+
+Sendo "*World*" uma string declarada na ```main()``` e passada para a função ```ft_printMessage()```.
+
+O resultado deverá ser algo como:
+
+<p align="center">
+  <img src="screenshots/ex02.jpg">
+</p>
 
 
 
