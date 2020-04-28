@@ -18,7 +18,11 @@ Vamos começar a modularizar o código. Para isso, crie um função que receba u
 Hello World.
 ```
 
-Sendo "*World*" uma string declarada na ```main()``` e passada para a função ```ft_printMessage()```.
+Sendo "*World*" uma string declarada na ```main()``` e passada para a função ```ft_printMessage()```, com protótipo:
+
+```
+void ft_printMessage(char *msg);
+```
 
 O resultado deverá ser algo como:
 
@@ -57,6 +61,8 @@ Após a criação dos arquivos, crie as funções dentro do arquivo ```library.c
 <p align="center">
   <img src="screenshots/ex04_1.jpg">
 </p>
+
+> NOTA: perceba que para incluir a biblioteca *stdio.h* utilizamos ```<stdio.h>```, enquanto para incluir a biblioteca *library.cpp* utilizamos ```"library.cpp"```. No primeiro caso, estamos incluindo uma biblioteca localizada no diretório padrão do compilador. Já no segundo caso, a biblioteca adicionada está localizada no diretório do arquivo ```ex04.c```. 
 
 Após validar o código acima, crie 2 funções no arquivo ```library.cpp```, com os seguintes protótipos:
 
