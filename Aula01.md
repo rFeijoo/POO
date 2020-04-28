@@ -26,7 +26,18 @@ O resultado deverá ser algo como:
   <img src="screenshots/ex02.jpg">
 </p>
 
+### 3 - Funções & Múltiplas Chamadas
 
+Com o mesmo código anterior, passe 2 parâmetros distintos para a função ```ft_printMessage()```, ambos declarados na ```main()```, sendo eles:
+
+1. "World";
+2. Seu nome;
+
+O resultado deverá ser algo como:
+
+<p align="center">
+  <img src="screenshots/ex03.jpg">
+</p>
 
 
 
