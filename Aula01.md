@@ -75,7 +75,7 @@ Ao rodar o código, o resultado deverá ser algo como:
   <img src="screenshots/ex04_2.jpg">
 </p>
 
-#### 4.2 - Criando Arquivos *.h*
+#### 4.2 - Criando Arquivos *.c* {continuação}
 
 Agora, utilizando o código anterior, imagine que seu código deve realizar o cadastro de 5 pessoas.
 
@@ -104,7 +104,8 @@ E é aqui que entra a **Programação Orientada a Objetos**.
 * Redução no custo de manutenção;
 * Aumento no aproveitamento do código;
 
-## Caracterização de Classes, Atributos, Métodos e Objetos
+#### 5.1 - Caracterização de Classes, Atributos, Métodos e Objetos
+
 Considere o seguinte trecho de código:
 ```
 class fila {
@@ -119,21 +120,24 @@ class fila {
 };
 ```
 
-### Classes
+##### 5.1.1 - Classes
+
 Uma classe é um gabarito para a definição de objetos. Através da definição de uma classe, descreve-se que propriedades, ou atributos, o objeto terá.
 
 Além da especificação de atributos, a definição de uma classe descreve também qual o comportamento de objetos da classe, ou seja, que funcionalidades podem ser aplicadas a eles. Essas funcionalidades são descritas através de métodos, que são equivalentes a uma função, com a restrição que ele manipula apenas suas variáveis locais e os atributos que foram definidos para a classe.
 
 No caso do código acima, a classe "fila" foi definida. Nela, há partes públicas, em que o usuário tem acesso, e partes privadas, em que o usuário não tem acesso.
 
-### Atributos
+##### 5.1.2 - Atributos
+
 Atributos são, basicamente, a estrutura de dados que vai representar a classe.
 
 Para o exemplo dado, são atributos:
 * ```int f[100];```
 * ```int primeiro, ultimo;```
 
-### Métodos
+##### 5.1.3 - Métodos
+
 Métodos são declarados dentro de uma classe para representar as operações que os objetos pertencentes a esta classe podem executar, ou seja, são as funções da classe.
 
 Para o exemplo dado, são métodos:
@@ -158,7 +162,8 @@ int get(int posicao)
 }
 ```
 
-### Objetos
+##### 5.1.4 - Objetos
+
 De maneira simples, os objetos são entidades lógicas que farão uso dos atributos e métodos de sua classe. Ou seja, considere a seguinte hipótese:
 
 > Uma escola possui 3 refeitórios, cada um independente do outro.
