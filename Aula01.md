@@ -1,3 +1,36 @@
+## 1 - Hello World
+
+Para iniciarmos, façamos um exemplo clássico que apresente a mensagem "Hello World" na saída. Escreva o código em C, utilizando algum compilador de sua preferência.
+
+O resultado deverá ser algo como:
+
+<p align="center">
+  <img src="screenshots/ex01.jpg">
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Programação Orientada a Objetos 
 
 <p align="center">
