@@ -1,4 +1,4 @@
-## Dia 1
+## Aula 1
 
 ### 1 - *Hello World*
 
