@@ -1,108 +1,17 @@
-## Aula 1
+## Aula 2
 
-### 1 - *Hello World*
+### 1 - *Arduino Blynk*
 
-Para iniciarmos, façamos um exemplo clássico que apresente a mensagem "*Hello World*" na saída. Escreva o código em C, utilizando algum compilador de sua preferência.
-
-O resultado deverá ser algo como:
+Escreva um programa, na *IDE* do *Arduino*, que pisque o *LED* 13 (interno) em 1*Hz*.
 
 <p align="center">
-  <img src="screenshots/ex01.jpg">
+  <img src="screenshots/ex05.gif">
 </p>
 
-### 2 - Funções
+### 2 - *Arduino Blynk* Sequencial para 3 *LEDs*
 
-Vamos começar a modularizar o código. Para isso, crie um função que receba uma *string* e a imprima na saída conforme o exemplo abaixo.
+Apesar de simples associar *LEDs* aos *GPIOs* do *Arduino*, podemos facilitar a montagem utilizando o *Serial Console*.
 
-```
-Hello World.
-```
-
-Sendo "*World*" uma string declarada na ```main()``` e passada para a função ```ft_printMessage()```, com protótipo:
-
-```
-void ft_printMessage(char *msg);
-```
-
-O resultado deverá ser algo como:
-
-<p align="center">
-  <img src="screenshots/ex02.jpg">
-</p>
-
-### 3 - Funções & Múltiplas Chamadas
-
-Com o mesmo código anterior, passe 2 parâmetros distintos para a função ```ft_printMessage()```, ambos declarados na ```main()```, sendo eles:
-
-1. "World";
-2. Seu nome;
-
-O resultado deverá ser algo como:
-
-<p align="center">
-  <img src="screenshots/ex03.jpg">
-</p>
-
-### 4 - Modularização
-
-Para códigos complexos, a melhor abordagem é estruturá-lo por tipos de periféricos (RTC, WiFi, GSM, etc).
-
-As principais vantagens são:
-
-* Redução no custo de manutenção;
-* Aumento no aproveitamento do código;
-
-#### 4.1 - Criando Arquivos *.c*
-
-Nesta etapa, serão necessários 2 arquivos, o arquivo principal (```ex04.c```) e a biblioteca visada (```library.cpp```).
-
-Após a criação dos arquivos, crie as funções dentro do arquivo ```library.cpp``` e inclua-o no arquivo principal, conforme demonstrado abaixo.
-
-<p align="center">
-  <img src="screenshots/ex04_1.jpg">
-</p>
-
-> NOTA: perceba que para incluir a biblioteca *stdio.h* utilizamos ```<stdio.h>```, enquanto para incluir a biblioteca *library.cpp* utilizamos ```"library.cpp"```. No primeiro caso, estamos incluindo uma biblioteca localizada no diretório padrão do compilador. Já no segundo caso, a biblioteca adicionada está localizada no diretório do arquivo ```ex04.c```. 
-
-Após validar o código acima, crie 2 funções no arquivo ```library.cpp```, com os seguintes protótipos:
-
-* ```void ft_getName(char *name);``` para obter o nome do usuário;
-* ```int ft_getAge(void);``` para obter a idade do usuário;
-
-Ao rodar o código, o resultado deverá ser algo como:
-
-<p align="center">
-  <img src="screenshots/ex04_2.jpg">
-</p>
-
-#### 4.2 - Criando Arquivos *.c* {continuação}
-
-Agora, utilizando o código anterior, imagine que seu código deve realizar o cadastro de 5 pessoas.
-
-O resultado deverá ser algo como:
-
-<p align="center">
-  <img src="screenshots/ex04_3.jpg">
-</p>
-
-Fácil!! Basta criar vetores e realizar o código em *loop*.
-
-<p align="center">
-  <img src="screenshots/ex04_4.jpg">
-</p>
-
-Mas... e caso o código deva ser capaz de cadastrar **ATÉ** 1000 pessoas. Seria necessário criar vetores gigantes, além de aumentar a complexidade, visto que podem ter menos usuários, e não sempre os 1000.
-
-E é aqui que entra a **Programação Orientada a Objetos**.
-
-### 5 - Programação Orientada a Objetos 
-
-<p align="center">
-  <img src="screenshots/POO.jpg">
-</p>
-
-* Redução no custo de manutenção;
-* Aumento no aproveitamento do código;
 
 #### 5.1 - Caracterização de Classes, Atributos, Métodos e Objetos
 
