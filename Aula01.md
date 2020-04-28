@@ -79,6 +79,15 @@ O resultado deverá ser algo como:
   <img src="screenshots/ex04_3.jpg">
 </p>
 
+Fácil!! Basta criar vetores e realizar o código em *loop*.
+
+<p align="center">
+  <img src="screenshots/ex04_4.jpg">
+</p>
+
+Mas... e caso o código deva ser capaz de cadastrar **ATÉ** 1000 pessoas. Seria necessário criar vetores gigantes, além de aumentar a complexidade, visto que podem ter menos usuários, e não sempre os 1000.
+
+E é aqui que entra a **Programação Orientada a Objetos**.
 
 
 
