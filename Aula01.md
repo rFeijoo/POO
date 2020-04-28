@@ -48,7 +48,7 @@ As principais vantagens são:
 * Redução no custo de manutenção;
 * Aumento no aproveitamento do código;
 
-#### 4.1 - Arquivos *.c*
+#### 4.1 - Criando Arquivos *.c*
 
 Nesta etapa, serão necessários 2 arquivos, o arquivo principal (```ex04.c```) e a biblioteca visada (```library.cpp```).
 
@@ -69,9 +69,15 @@ Ao rodar o código, o resultado deverá ser algo como:
   <img src="screenshots/ex04_2.jpg">
 </p>
 
+#### 4.2 - Criando Arquivos *.h*
 
+Agora, utilizando o código anterior, imagine que seu código deve realizar o cadastro de 5 pessoas.
 
+O resultado deverá ser algo como:
 
+<p align="center">
+  <img src="screenshots/ex04_3.jpg">
+</p>
 
 
 
