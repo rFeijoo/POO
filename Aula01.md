@@ -58,7 +58,16 @@ Após a criação dos arquivos, crie as funções dentro do arquivo ```library.c
   <img src="screenshots/ex04_1.jpg">
 </p>
 
+Após validar o código acima, crie 2 funções no arquivo ```library.cpp```, com os seguintes protótipos:
 
+* ```void ft_getName(char *name);``` para obter o nome do usuário;
+* ```int ft_getAge(void);``` para obter a idade do usuário;
+
+Ao rodar o código, o resultado deverá ser algo como:
+
+<p align="center">
+  <img src="screenshots/ex04_2.jpg">
+</p>
 
 
 
