@@ -1,20 +1,26 @@
-#define LED 13
+// Includes
+  #include "Blynk.h"
 
-long timer = 0;
+// Pre-Processing
+  Blynk LED1, LED2, LED3;
 
 void setup(void)
 {
+  // Inicializa o Serial Console
+  Serial.begin(9600);
+  while (!Serial)
+    ;
+  
   // Configura os GPIOs
-  pinMode(LED, OUTPUT);
-  digitalWrite(LED, LOW);
+  LED1.begin(13);
+  LED2.begin(12);
+  LED3.begin(11);
 }
 
 void loop(void)
 {
-  if (millis() > timer + 500)
-  {
-    digitalWrite(LED, !digitalRead(LED));
-
-    timer = millis();
-  }
+  LED1.loop();
+  LED2.loop();
+  LED3.loop();
+  delay(1000);
 }
