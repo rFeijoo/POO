@@ -12,7 +12,7 @@ int main(void)
   {
     PINB = bit(5);                    // digitalWrite(LED, !digitalRead(LED));
 
-    for (long i=0; i<500000; i++)     // delay();
+    for (long i=0; i<1000000; i++)     // delay();
       asm("");
   }
 }

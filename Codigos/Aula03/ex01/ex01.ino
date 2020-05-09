@@ -20,7 +20,9 @@ void setup(void)
 void loop(void)
 {
   LED1.loop();
+  delay(500);
   LED2.loop();
+  delay(500);
   LED3.loop();
-  delay(1000);
+  delay(500);
 }
